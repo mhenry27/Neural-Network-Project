@@ -84,6 +84,47 @@ Evaluated classification performance using F1-score to assess the balance betwee
 - Hyperparameter experimentation
 - Model evaluation and visualization
 
+## Installation and Setup
+
+### Requirements
+- Python 3
+- NumPy
+- Matplotlib
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/mhenry27/Neural-Network-Project.git
+```
+
+2. Navigate into the project directory:
+
+```bash
+cd Neural-Network-Project
+```
+
+3. Install the required dependencies:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+### Running the Neural Network
+
+From the project directory, run:
+
+```bash
+python3 Main.py
+```
+
+The program trains a Multi-Layer Perceptron and reports training loss and F1-score after each epoch. It also saves numerical experiment results in NumPy `.npy` files.
+
+### Experiment Visualizations
+
+The repository includes `plot.py` and saved figures illustrating training loss, F1-score, hidden layer comparisons, and learning rate experiments.
+
 ## Key Takeaways
 
 This project strengthened my understanding of neural network fundamentals by requiring the implementation of core machine learning algorithms rather than relying on existing frameworks.
